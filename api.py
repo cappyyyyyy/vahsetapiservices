@@ -16,7 +16,7 @@ CORS(app)
 # ==================== CONFIG ====================
 GITHUB_FILES = [
     f"https://raw.githubusercontent.com/cappyyyyyy/apikaynak/main/data_part{i}.txt"
-    for i in range(1, 16)
+    for i in range(1, 40)
 ]
 
 CACHE_FILE = "users_cache.json"
