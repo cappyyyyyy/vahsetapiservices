@@ -455,15 +455,4 @@ def index():
 
 # ==================== MAIN ====================
 if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-
-    print("\n" + "⭐" * 30)
-    print("🚀 VAHŞET OSINT API v4.3")
-    print(f"📡 Port: {port}")
-    print(f"🌐 URL: http://localhost:{port}")
-    print(f"📊 Kullanıcı: {len(api.users_data):,}")
-    print("⭐" * 30)
-    print("⚠️  DEBUG MOD: Ayrıntılı loglama aktif")
-    print("⭐" * 30)
-
-    app.run(host="0.0.0.0", port=port, debug=False)
+    app.run()
